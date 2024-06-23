@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-    <h1>General Questions</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+   <h1>General Questions</h1>
 
-    <div id="container">
+   <div id="container">
+    <div class="child">
       <div class="questions">
-        <p>Do You Accept All Major Credits Cards?</p>
-        <button onclick="seeMoreHandler(this)" class="expand-btn">+</button>
-        <div class="additional-content" style="display: none;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quam voluptatibus beatae sed, earum velit facere aspernatur nostrum dignissimos cumque dolorum quas distinctio, enim eos? Ea illo voluptatibus nesciunt eius.
-        </div>
+        <p class="sawal">Do You Accept All Major Credits Cards?</p>
+        <button onclick="seeMoreHandler(this)">+</button>
       </div>
-
-      <div class="questions">
-        <p>Do You Support Local Farmers?</p>
-        <button onclick="seeMoreHandler(this)" class="expand-btn">+</button>
-        <div class="additional-content" style="display: none;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quam voluptatibus beatae sed, earum velit facere aspernatur nostrum dignissimos cumque dolorum quas distinctio, enim eos? Ea illo voluptatibus nesciunt eius.
-        </div>
-      </div>
-
-      <div class="questions">
-        <p>Do You Use Organic Ingredients?</p>
-        <button onclick="seeMoreHandler(this)" class="expand-btn">+</button>
-        <div class="additional-content" style="display: none;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quam voluptatibus beatae sed, earum velit facere aspernatur nostrum dignissimos cumque dolorum quas distinctio, enim eos? Ea illo voluptatibus nesciunt eius.
-        </div>
-      </div>
+      <p class="answer">Yes, we accept all major credit cards such as Visa, MasterCard, American Express, and Discover. Our payment options are designed to accommodate a variety of customer preferences. If you have any specific inquiries about payment methods, feel free to reach out to our customer service.</p>
     </div>
-    <script src="app.js"></script>
-  </body>
+ 
+    <div class="child">
+      <div class="questions">
+        <p class="sawal">Do You Support Local Farmers?</p>
+        <button onclick="seeMoreHandler(this)">+</button>
+      </div>
+      <p class="answer">Yes, we proudly support local farmers by sourcing fresh produce and ingredients directly from them whenever possible. Our commitment to local agriculture helps sustain the community and ensures quality and freshness in our offerings.</p>
+    </div>
+
+ 
+    <div class="child">
+      <div class="questions">
+        <p class="sawal">Do You Use Organic Ingredients?</p>
+        <button onclick="seeMoreHandler(this)">+</button>
+      </div>
+      <p class="answer">Yes, we prioritize using organic ingredients in our products to uphold high standards of quality and sustainability. Our commitment to organic sourcing ensures healthier choices for our customers and supports environmentally-friendly practices</p>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+ 
+
 </html>
 
